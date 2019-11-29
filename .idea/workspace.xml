@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.checkout.local" value="2" />
           <entry key="git.branch.create.new" value="3" />
         </counts>
       </usages-collector>
@@ -100,6 +100,41 @@
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
               <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
+              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
+              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
+              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
+              <item name="Neutral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
+              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
+              <item name="Targets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
+              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
