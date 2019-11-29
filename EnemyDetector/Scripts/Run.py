@@ -13,19 +13,17 @@ centerPoint = tuple(i/2 for i in screenSize)
 print('Screen Size X:%d y:%d' % screenSize)
 print('Targeting Center X:%d y:%d' % centerPoint)
 
-# Starting Main Loop
+# Starting Main Loop (will run faster if using Tensorflow + GPU)
 print('Started')
 while 1 == 1:
     # Grab Screen
     image = pyautogui.screenshot(region=(centerPoint[0] - 200, centerPoint[1] - 200, 200, 200))
-
     # Format and Normalize Data
     normalizedImage = np.asarray([np.asarray(image)]) / 255
-
     # Predict
     prediction = model.predict(normalizedImage)
-
-    if prediction[0][0] > 0.99:
+    # Print Result
+    if prediction[0][0] > 0.10:
         print('Enemy!')
     else:
         print('')
