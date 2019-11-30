@@ -6,9 +6,6 @@ import tensorflow.keras as keras
 import ctypes
 import uuid
 
-# Load Model
-model = keras.models.load_model('..\\Models\\CODV4.h5')
-
 # Find Center Of Screen
 user32 = ctypes.windll.user32
 screenSize = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
@@ -25,57 +22,62 @@ elif screenSize[0] == 1920:
 else:
     raise Exception('Invalid Screen Resolution', 'Set up your screen resolution')
 
-lastSecondTimestamp = datetime.utcnow() + timedelta(seconds=1)
-tickCounter = 0
+print('Started Outer Loop')
+while True:
+    lastSecondTimestamp = datetime.utcnow() + timedelta(seconds=1)
+    tickCounter = 0
 
-# Starting Main Loop (will run faster if using Tensorflow + GPU)
-print('Started')
-while 1 == 1:
-    tickCounter += 1
+    # Load Model
+    model = keras.models.load_model('..\\Models\\CODV4.h5')
 
-    if datetime.utcnow() > lastSecondTimestamp:
-        lastSecondTimestamp = datetime.utcnow() + timedelta(seconds=1)
-        print('Ticks Per Second %d' % tickCounter)
-        tickCounter = 0
+    # Starting Main Loop (will run faster if using Tensorflow + GPU)
+    print('Started Inner Loop')
+    for i in range(0, 1000):
+        tickCounter += 1
 
-    # Grab Screen
-    image = pyautogui.screenshot(region=(centerPoint[0] - (100 * fourKMultiplier),
-                                         centerPoint[1] - (100 * fourKMultiplier),
-                                         (200 * fourKMultiplier), (200 * fourKMultiplier)))
-    if image.size != (200, 200):
-        image = image.resize((200, 200), 0)
+        if datetime.utcnow() > lastSecondTimestamp:
+            lastSecondTimestamp = datetime.utcnow() + timedelta(seconds=1)
+            print('Ticks Per Second %d' % tickCounter)
+            tickCounter = 0
 
-    # Format and Normalize Data
-    normalizedImage = np.asarray([np.asarray(image)]) / 255
-    # Predict
-    prediction = model.predict(normalizedImage)
+        # Grab Screen
+        image = pyautogui.screenshot(region=(centerPoint[0] - (100 * fourKMultiplier),
+                                             centerPoint[1] - (100 * fourKMultiplier),
+                                             (200 * fourKMultiplier), (200 * fourKMultiplier)))
+        if image.size != (200, 200):
+            image = image.resize((200, 200), 0)
 
-    targetFolder = None
+        # Format and Normalize Data
+        normalizedImage = np.asarray([np.asarray(image)]) / 255
+        # Predict
+        prediction = model.predict(normalizedImage)
 
-    if prediction[0][0] == 1 and (1 == 1):
-        targetFolder = '\\100\\'
-    elif prediction[0][0] > .90 and prediction[0][0] < 100 and (1 == 1):
-        targetFolder = '\\90-99\\'
-    elif prediction[0][0] > .80 and prediction[0][0] < .90 and (1 == 1):
-        targetFolder = '\\80-89\\'
-    elif prediction[0][0] > .70 and prediction[0][0] < .80 and (1 == 1):
-        targetFolder = '\\70-79\\'
-    elif prediction[0][0] > .60 and prediction[0][0] < .70 and (1 == 1):
-        targetFolder = '\\60-69\\'
-    elif prediction[0][0] > .50 and prediction[0][0] < .60 and (1 == 1):
-        targetFolder = '\\50-59\\'
-    elif prediction[0][0] > .40 and prediction[0][0] < .50 and (1 == 1):
-        targetFolder = '\\40-49\\'
-    elif prediction[0][0] > .30 and prediction[0][0] < .40 and (1 == 1):
-        targetFolder = '\\30-39\\'
-    elif prediction[0][0] > .20 and prediction[0][0] < .30 and (1 == 2):
-        targetFolder = '\\20-29\\'
-    elif prediction[0][0] > .10 and prediction[0][0] < .20 and (1 == 2):
-        targetFolder = '\\10-19\\'
+        targetFolder = None
 
-    if targetFolder is not None:
-        baseDirectory = 'E:\\Projects\\COD Target Trainer\\Data Collection'
-        generatedGUID = str(uuid.uuid1())
-        image.save(baseDirectory + targetFolder + generatedGUID + '.png', 'png')
-        print('Writing %' + str((prediction[0][0] * 100)))
+        if prediction[0][0] == 1 and (1 == 1):
+            targetFolder = '\\100\\'
+        elif prediction[0][0] > .90 and prediction[0][0] < 100 and (1 == 1):
+            targetFolder = '\\90-99\\'
+        elif prediction[0][0] > .80 and prediction[0][0] < .90 and (1 == 1):
+            targetFolder = '\\80-89\\'
+        elif prediction[0][0] > .70 and prediction[0][0] < .80 and (1 == 1):
+            targetFolder = '\\70-79\\'
+        elif prediction[0][0] > .60 and prediction[0][0] < .70 and (1 == 1):
+            targetFolder = '\\60-69\\'
+        elif prediction[0][0] > .50 and prediction[0][0] < .60 and (1 == 1):
+            targetFolder = '\\50-59\\'
+        elif prediction[0][0] > .40 and prediction[0][0] < .50 and (1 == 1):
+            targetFolder = '\\40-49\\'
+        elif prediction[0][0] > .30 and prediction[0][0] < .40 and (1 == 1):
+            targetFolder = '\\30-39\\'
+        elif prediction[0][0] > .20 and prediction[0][0] < .30 and (1 == 2):
+            targetFolder = '\\20-29\\'
+        elif prediction[0][0] > .10 and prediction[0][0] < .20 and (1 == 2):
+            targetFolder = '\\10-19\\'
+
+        if targetFolder is not None:
+            baseDirectory = 'E:\\Projects\\COD Target Trainer\\Data Collection'
+            generatedGUID = str(uuid.uuid1())
+            image.save(baseDirectory + targetFolder + generatedGUID + '.png', 'png')
+            print('Writing %' + str((prediction[0][0] * 100)))
 
