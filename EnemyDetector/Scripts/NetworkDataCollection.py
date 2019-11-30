@@ -39,8 +39,8 @@ while 1 == 1:
         tickCounter = 0
 
     # Grab Screen
-    image = pyautogui.screenshot(region=(centerPoint[0] - (200 * fourKMultiplier),
-                                         centerPoint[1] - (200 * fourKMultiplier),
+    image = pyautogui.screenshot(region=(centerPoint[0] - (100 * fourKMultiplier),
+                                         centerPoint[1] - (100 * fourKMultiplier),
                                          (200 * fourKMultiplier), (200 * fourKMultiplier)))
     if image.size != (200, 200):
         image = image.resize((200, 200), 0)
