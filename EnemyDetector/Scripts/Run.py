@@ -23,7 +23,7 @@ while 1 == 1:
     # Predict
     prediction = model.predict(normalizedImage)
     # Print Result
-    if prediction[0][0] > 0.10:
+    if prediction[0][0] > 0.95:
         print('Enemy!')
     else:
         print('')
