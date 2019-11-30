@@ -1,6 +1,7 @@
 import pyautogui
 import numpy as np
-from PIL import Image
+from datetime import datetime
+from datetime import timedelta
 import tensorflow.keras as keras
 import ctypes
 import uuid
@@ -24,9 +25,19 @@ elif screenSize[0] == 1920:
 else:
     raise Exception('Invalid Screen Resolution', 'Set up your screen resolution')
 
+lastSecondTimestamp = datetime.utcnow() + timedelta(seconds=1)
+tickCounter = 0
+
 # Starting Main Loop (will run faster if using Tensorflow + GPU)
 print('Started')
 while 1 == 1:
+    tickCounter += 1
+
+    if datetime.utcnow() > lastSecondTimestamp:
+        lastSecondTimestamp = datetime.utcnow() + timedelta(seconds=1)
+        print('Ticks Per Second %d' % tickCounter)
+        tickCounter = 0
+
     # Grab Screen
     image = pyautogui.screenshot(region=(centerPoint[0] - (200 * fourKMultiplier),
                                          centerPoint[1] - (200 * fourKMultiplier),
