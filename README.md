@@ -26,7 +26,7 @@ So realisticly, this is a neural network trained on successfully detecting Gamer
 If you can run Tensorflow off your GPU, Highly recomend you do so. Its the difference of 2 FPS (i7 3770K) and 12 FPS (GTX 1080 TI). Good instructions here: https://www.tensorflow.org/install/gpu and here https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/
 
 ### What does 'EnemyDetector/Scripts/Run.py' do?
-Grab the center 200x200 pixel block, adn run it through the Neural Network. It will print to the console any time it is > 95% confident that it sees an enemy. 
+Grab the center 200x200 pixel block, and run it through the Neural Network. It will print to the console any time it is > 95% confident that it sees an enemy. 
 
 
 
