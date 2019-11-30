@@ -16,7 +16,16 @@ There are some cases in COD, where just loooking at a 200x200 block, its impossi
 
 So realisticly, this is a neural network trained on successfully detecting Gamertags in a 200x200 block
 
-### How It Works
+### Ho To Run
+1. Clone
+2. Large File Download the latest model (https://github.com/darkmatter2222/COD-MW-2019-DNN/tree/master/EnemyDetector/Models)
+3. Set up your venv. (Using Tensorflow 2.0)
+4. Run <Script>
+5. Run COD at full screen
+
+If you can run Tensorflow off your GPU, Highly recomend you do so. Its the difference of 2 FPS (i7 3770K) and 12 FPS (GTX 1080 TI). Good instructions here: https://www.tensorflow.org/install/gpu and here https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/
+
+
 
 
 
