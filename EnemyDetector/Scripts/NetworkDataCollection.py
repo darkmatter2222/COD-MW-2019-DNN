@@ -28,7 +28,7 @@ while True:
     tickCounter = 0
 
     # Load Model
-    model = keras.models.load_model('..\\Models\\CODV4.h5')
+    model = keras.models.load_model('..\\Models\\CODV5.h5')
 
     # Starting Main Loop (will run faster if using Tensorflow + GPU)
     print('Started Inner Loop')
