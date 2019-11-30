@@ -17,7 +17,7 @@ print('Targeting Center X:%d y:%d' % centerPoint)
 print('Started')
 while 1 == 1:
     # Grab Screen
-    image = pyautogui.screenshot(region=(centerPoint[0] - 200, centerPoint[1] - 200, 200, 200))
+    image = pyautogui.screenshot(region=(centerPoint[0] - 100, centerPoint[1] - 100, 200, 200))
     # Format and Normalize Data
     normalizedImage = np.asarray([np.asarray(image)]) / 255
     # Predict
