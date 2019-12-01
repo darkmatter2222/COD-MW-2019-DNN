@@ -6,5 +6,5 @@ Trained up to 97% validatin accuracy from 2.2 GB of training data
 
 # CODV6.h5
 Trained up to 97% validatin accuracy from 2.7 GB of training data  
-Pulled out alot of those false positives.  
+Reduced false positives.  
 ![](https://imgur.com/T2ZHy63.png)
