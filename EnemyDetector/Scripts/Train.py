@@ -1,7 +1,7 @@
 import os
 import zipfile
 
-base_dir = 'E:\\Projects\\COD Target Trainer\\Training Data'
+base_dir = 'G:\\Projects\\COD Target Trainer\\Training Data'
 train_dir = os.path.join(base_dir, 'train')
 validation_dir = os.path.join(base_dir, 'validation')
 
@@ -119,7 +119,7 @@ val_datagen = ImageDataGenerator(rescale=1./255)
 train_generator = train_datagen.flow_from_directory(
         train_dir,  # This is the source directory for training images
         target_size=(200, 200),  # All images will be resized to 200x200
-        batch_size=20,
+        batch_size=50,
         # Since we use binary_crossentropy loss, we need binary labels
         class_mode='binary')
 
@@ -127,21 +127,21 @@ train_generator = train_datagen.flow_from_directory(
 validation_generator = val_datagen.flow_from_directory(
         validation_dir,
         target_size=(200, 200),
-        batch_size=20,
+        batch_size=50,
         class_mode='binary')
 
 
 import tensorflow as tf
 import time
-#tensor_board = tf.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\Logs\\{}".format(time.time()))
+tensor_board = tf.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\Logs\\{}".format(time.time()))
 
 history = model.fit_generator(
       train_generator,
       steps_per_epoch=100,  # 2000 images = batch_size * steps
       epochs=10,
-      #callbacks=[tensor_board],
+      callbacks=[tensor_board],
       validation_data=validation_generator,
       validation_steps=50,  # 1000 images = batch_size * steps
       verbose=1)
 
-model.save('E:\\Projects\\COD Target Trainer\\Training Data\\CODV5.h5')
+model.save('G:\\Projects\\COD Target Trainer\\Training Data\\CODV6.h5')
