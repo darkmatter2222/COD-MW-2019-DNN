@@ -105,4 +105,4 @@ venv.bak/
 
 # Custom Exclude
 .png
-/Logs/*
+EnemyDetector/Logs/*
