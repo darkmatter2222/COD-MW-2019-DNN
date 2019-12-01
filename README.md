@@ -28,6 +28,10 @@ If you can run Tensorflow off your GPU, Highly recomend you do so. Its the diffe
 ### What does 'EnemyDetector/Scripts/Run.py' do?
 Grab the center 200x200 pixel block, and run it through the Neural Network. It will print to the console any time it is > 95% confident that it sees an enemy. 
 
+### What does 'EnemyDetector/Scripts/Overlay.py' do?
+Grab the center 200x200 pixel block, and run it through the Neural Network.It will also render a crude transparrent window over COD/Twitch showing you real time values.
+![](https://imgur.com/lNZntCc.png)
+
 
 
 
