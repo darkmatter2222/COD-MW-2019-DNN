@@ -32,7 +32,7 @@ infoLabel.pack()
 
 v.set("Initializing...")
 c.set('<= What is seen by the neural network')
-d.set('Last highest seen by neural network =>')
+d.set('Last 100% seen by neural network =>')
 
 def task():
     last100Image = None
@@ -72,16 +72,18 @@ def task():
 
         if predictionPercent == 100:
             last100Image = image
+        try:
+            render = ImageTk.PhotoImage(image)
+            img = Label(image=render)
+            img.image = render
+            img.place(x=0, y=100)
 
-        render = ImageTk.PhotoImage(image)
-        img = Label(image=render)
-        img.image = render
-        img.place(x=0, y=100)
-
-        render2 = ImageTk.PhotoImage(last100Image)
-        img100 = Label(image=render2)
-        img100.image = render2
-        img100.place(x=896, y=100)
+            render2 = ImageTk.PhotoImage(last100Image)
+            img100 = Label(image=render2)
+            img100.image = render2
+            img100.place(x=896, y=100)
+        except:
+            print('error')
 
 
 
