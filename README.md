@@ -5,7 +5,6 @@ Only limited validation will be provided in this repo. The base training dataset
 
 # Enimy Detector/Gamertag Detector
 ### Intent
-![Farmers Market Finder Demo](Misc/targets.gif)  
 Look at a 200x200 pixel block at the center of the uers screen, determine if there is an enemy somewhere in that block. If you have ever played COD, then there is a high chance that by just looking at the below, you would agree if there is an enemy in these images.
 
 ![](https://imgur.com/5Fowghj.png)
@@ -13,7 +12,8 @@ There are some cases in COD, where just loooking at a 200x200 block, its impossi
 
 ![](https://imgur.com/IwZMovH.png)
 
-So realisticly, this is a neural network trained on successfully detecting Gamertags in a 200x200 block
+So realisticly, this is a neural network trained on successfully detecting Gamertags in a 200x200 block  
+![Targets](Misc/targets.gif)  
 
 ### Ho To Run
 1. Clone
@@ -29,8 +29,7 @@ Grab the center 200x200 pixel block, and run it through the Neural Network. It w
 
 ### What does 'EnemyDetector/Scripts/Overlay.py' do?
 Grab the center 200x200 pixel block, and run it through the Neural Network.It will also render a crude transparrent window over COD/Twitch showing you real time values.  
-[Sample Gif Here](https://imgur.com/uZL3bDn.gif)  
-[Targets Sample Here](https://i.imgur.com/YAGLJqV.gif)  
+![Sample Gif Here](Misc/SampleOverlay.gif)  
 [Sample Video Here](https://youtu.be/Qif8g2Ib5pI)  
 ![](https://imgur.com/IAzmDzR.png)
 
