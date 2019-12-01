@@ -37,6 +37,7 @@ This is the "Self Training" Script that runs nearly all day on a server in my ba
 Once a day, I run through and sort the Targets and Neutral Images (takes 20 minutes for 1GB of Data)  
 It helps that 99% of the images in the 100% folder are all targets  
 I then restart the training with this new data appended to the existing training set. 
+![Servers](https://imgur.com/nGzgMBE.png)
 
 
 
