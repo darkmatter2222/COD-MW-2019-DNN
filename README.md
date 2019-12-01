@@ -43,7 +43,7 @@ I then restart the training with this new data appended to the existing training
 This is where the magic happens  
 The most simple thing, Pull in a boat load of images from 4 directories (2 train (Neutral and Targets), 2 validation (Neutral and Targets)) and start trainging!  
 I provided some validation data zipped up, unzip and run .eval  
-**OR**
+**OR**  
 Run EnemyDetector/Scripts/Run.py and take one of those Validation images and drag it around on your screen (roughtly center) and watch as the nextwork detects it present.
 
 
