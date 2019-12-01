@@ -28,11 +28,15 @@ If you can run Tensorflow off your GPU, Highly recomend you do so. Its the diffe
 Grab the center 200x200 pixel block, and run it through the Neural Network. It will print to the console any time it is > 95% confident that it sees an enemy. 
 
 ### What does 'EnemyDetector/Scripts/Overlay.py' do?
-Grab the center 200x200 pixel block, and run it through the Neural Network.It will also render a crude transparrent window over COD/Twitch showing you real time values.  
+Grab the center 200x200 pixel block, and run it through the Neural Network. It will also render a crude transparrent window over COD/Twitch showing you real time values.  
 ![Sample Gif Here](Misc/SampleOverlay.gif)  
 [Sample Video Here](https://youtu.be/Qif8g2Ib5pI)  
 
-
+### What does 'EnemyDetector/Scripts/NetworkDataCollection.py' do?
+This is the "Self Training" Script that runs nearly all day on a server in my basement. It watches Twitch streams of COD in 1080p and grabs screens and stores them by % Confidence into an external 1TB SSD (Sacrificial V-NAND Flash)  
+Once a day, I run through and sort the Targets and Neutral Images (takes 20 minutes for 1GB of Data)  
+It helps that 99% of the images in the 100% folder are all targets  
+I then restart the training with this new data appended to the existing training set. 
 
 
 
