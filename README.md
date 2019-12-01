@@ -3,7 +3,7 @@ Deep Neural Networks for Call Of Duty Modern Warfare 2019
 Contained are the scripts and validation data as well as the .h5 files for various Call of Duty Modern Warfare Neural Networks  
 Only limited validation will be provided in this repo. The base training dataset is > 2GB.
 
-# Enimy Detector/Gamertag Detector
+# Enemy Detector/Gamertag Detector
 ### Intent
 Look at a 200x200 pixel block at the center of the uers screen, determine if there is an enemy somewhere in that block. If you have ever played COD, then there is a high chance that by just looking at the below, you would agree if there is an enemy in these images.
 
@@ -15,7 +15,7 @@ There are some cases in COD, where just loooking at a 200x200 block, its impossi
 So realisticly, this is a neural network trained on successfully detecting Gamertags in a 200x200 block  
 ![Targets](Misc/targets.gif)  
 
-### Ho To Run
+### How To Run
 1. Clone
 2. Large File Download the latest model (https://github.com/darkmatter2222/COD-MW-2019-DNN/tree/master/EnemyDetector/Models)
 3. Set up your venv. (Using Tensorflow 2.0)
