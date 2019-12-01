@@ -37,7 +37,14 @@ This is the "Self Training" Script that runs nearly all day on a server in my ba
 Once a day, I run through and sort the Targets and Neutral Images (takes 20 minutes for 1GB of Data)  
 It helps that 99% of the images in the 100% folder are all targets  
 I then restart the training with this new data appended to the existing training set. 
-![Servers](https://imgur.com/nGzgMBE.png)
+![Servers](https://imgur.com/nGzgMBE.png)  
+
+### What does 'EnemyDetector/Scripts/Train.py' do?
+This is where the magic happens  
+The most simple thing, Pull in a boat load of images from 4 directories (2 train (Neutral and Targets), 2 validation (Neutral and Targets)) and start trainging!  
+I provided some validation data zipped up, unzip and run .eval  
+##OR  
+Run EnemyDetector/Scripts/Run.py and take one of those Validation images and drag it around on your screen (roughtly center) and watch as the nextwork detects it present.
 
 
 
