@@ -5,6 +5,7 @@ Only limited validation will be provided in this repo. The base training dataset
 
 # Enimy Detector/Gamertag Detector
 ### Intent
+![Farmers Market Finder Demo](Misc/targets.gif)  
 Look at a 200x200 pixel block at the center of the uers screen, determine if there is an enemy somewhere in that block. If you have ever played COD, then there is a high chance that by just looking at the below, you would agree if there is an enemy in these images.
 
 ![](https://imgur.com/5Fowghj.png)
