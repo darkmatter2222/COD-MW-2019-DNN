@@ -30,7 +30,7 @@ Grab the center 200x200 pixel block, and run it through the Neural Network. It w
 
 ### What does 'EnemyDetector/Scripts/Overlay.py' do?
 Grab the center 200x200 pixel block, and run it through the Neural Network.It will also render a crude transparrent window over COD/Twitch showing you real time values.
-![Animation](https://i.imgur.com/a8UeNEa.gif)
+[Imgur](https://imgur.com/uZL3bDn.gif)
 
 
 
