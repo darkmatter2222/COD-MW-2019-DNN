@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d7025f9-5518-45bd-b605-2f547d80aeee" name="Default Changelist" comment="" />
+    <list default="true" id="1d7025f9-5518-45bd-b605-2f547d80aeee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="391">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -37,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="229">
+              <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -93,8 +95,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Run.py" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py" />
-        <option value="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Train.py" />
+        <option value="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" />
       </list>
     </option>
   </component>
@@ -189,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Train">
+  <component name="RunManager" selected="Python.NetworkDataCollection">
     <configuration name="NetworkDataCollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COD-MW-2019-DNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,8 +284,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Train" />
         <item itemvalue="Python.NetworkDataCollection" />
+        <item itemvalue="Python.Train" />
         <item itemvalue="Python.Overlay" />
         <item itemvalue="Python.Run" />
       </list>
@@ -336,16 +338,16 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.13277134" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.13277134" />
       <window_info id="Structure" order="1" sideWeight="0.504" side_tool="true" weight="0.24986821" />
       <window_info id="Favorites" order="2" sideWeight="0.5008" side_tool="true" weight="0.24986821" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" visible="true" weight="0.35969663" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" weight="0.35969663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.32832617" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920928" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002636" side_tool="true" weight="0.32939914" />
@@ -458,22 +460,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
+    <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="391">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py">
+    <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="229">
+          <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

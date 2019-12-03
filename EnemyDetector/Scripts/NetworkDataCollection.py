@@ -27,7 +27,7 @@ lastSecondTimestamp = datetime.utcnow() + timedelta(seconds=1)
 tickCounter = 0
 
 # Load Model
-model = keras.models.load_model('..\\Models\\CODV5.h5')
+model = keras.models.load_model('..\\Models\\CODV7.h5')
 
 # Starting Main Loop (will run faster if using Tensorflow + GPU)
 print('Started Inner Loop')
