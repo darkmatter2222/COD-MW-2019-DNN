@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1d7025f9-5518-45bd-b605-2f547d80aeee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnemyDetector/Scripts/Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyDetector/Scripts/Train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="255">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
-              <caret line="141" column="31" lean-forward="true" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -40,24 +42,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py">
+        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="255">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
+        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="101">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,9 +96,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Run.py" />
+        <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Train.py" />
-        <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py" />
       </list>
     </option>
   </component>
@@ -191,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Overlay">
+  <component name="RunManager" selected="Python.Train">
     <configuration name="NetworkDataCollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COD-MW-2019-DNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,9 +286,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Overlay" />
         <item itemvalue="Python.Train" />
         <item itemvalue="Python.NetworkDataCollection" />
+        <item itemvalue="Python.Overlay" />
         <item itemvalue="Python.Run" />
       </list>
     </recent_temporary>
@@ -336,16 +338,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1063" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.13284133" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.13277134" />
       <window_info id="Structure" order="1" sideWeight="0.504" side_tool="true" weight="0.24986821" />
       <window_info id="Favorites" order="2" sideWeight="0.5008" side_tool="true" weight="0.24986821" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" weight="0.35969663" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39761648" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
@@ -394,6 +395,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base Schema" />
@@ -407,6 +422,11 @@
           <url>file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py</url>
           <line>137</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -424,8 +444,8 @@
     <entry file="file://$USER_HOME$/PycharmProjects/MinecraftPlayer/venv/Lib/site-packages/tensorflow/python/ops/random_ops.py" />
     <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="101">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -434,8 +454,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="55" />
+        <state relative-caret-position="255">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -444,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -454,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="141" column="31" lean-forward="true" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

@@ -69,9 +69,9 @@ while True:
         targetFolder = '\\40-49\\'
     elif prediction[0][0] > .30 and prediction[0][0] < .40 and (1 == 1):
         targetFolder = '\\30-39\\'
-    elif prediction[0][0] > .20 and prediction[0][0] < .30 and (1 == 2):
+    elif prediction[0][0] > .20 and prediction[0][0] < .30 and (1 == 1):
         targetFolder = '\\20-29\\'
-    elif prediction[0][0] > .10 and prediction[0][0] < .20 and (1 == 2):
+    elif prediction[0][0] > .10 and prediction[0][0] < .20 and (1 == 1):
         targetFolder = '\\10-19\\'
 
     if targetFolder is not None:

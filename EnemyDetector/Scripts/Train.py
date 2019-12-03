@@ -144,4 +144,4 @@ history = model.fit_generator(
       validation_steps=50,  # 1000 images = batch_size * steps
       verbose=1)
 
-model.save('G:\\Projects\\COD Target Trainer\\Training Data\\CODV6.h5')
+model.save('G:\\Projects\\COD Target Trainer\\Training Data\\CODV7.h5')
