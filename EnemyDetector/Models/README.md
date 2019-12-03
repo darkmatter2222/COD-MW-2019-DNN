@@ -8,3 +8,7 @@ Trained up to 97% validatin accuracy from 2.2 GB of training data
 Trained up to 97% validatin accuracy from 2.7 GB of training data  
 Reduced false positives.  
 ![](https://imgur.com/T2ZHy63.png)
+
+# CODV7.h5
+Trained up to 97% validatin accuracy from 5.1 GB of training data  
+Mostly Twitch Streamers
