@@ -5,14 +5,14 @@ Only limited validation will be provided in this repo. The base training dataset
 
 # Enemy Detector
 ### Intent
-Look at a 200x200 pixel block at the center of the uers screen, determine if there is an enemy somewhere in that block. If you have ever played COD, then there is a high chance that by just looking at the below, you would agree if there is an enemy in these images.  
-![](https://imgur.com/5Fowghj.png)
+Look at a 200x200 pixel block at the center of the uers screen, determine if there is an enemy somewhere in that block. If you have ever played COD, then there is a high chance that by just looking at the below, you would agree if there is an enemy in these images. Realisticly, this is a neural network trained on successfully detecting Gamertags in a 200x200 block.    
+![](https://imgur.com/5Fowghj.png) ![Targets](Misc/targets.gif)  
 
 
 # Head hunter
 ### Intent
 Look at a 200x200 pixel block at the center of the uers screen, Brake the image into a 10x10 grid of 20x20 in each cell. Clasift what cell the head of the enemy is in, plan a crosshair on the head of the enemy. Neutral and Unknown as catch all calssifications (102 classifications total)  
-![](https://imgur.com/GtAAOek.png)
+![](https://imgur.com/GtAAOek.png) ![](https://imgur.com/WsqYmmp.png)
 
 
 There are some cases in COD, where just loooking at a 200x200 block, its impossible to tell if its friend or foe. Take the scenerio that the user has been flashbanged. The user doesent see the colord indicator above the player.  
@@ -21,7 +21,7 @@ There are some cases in COD, where just loooking at a 200x200 block, its impossi
 
 
 So realisticly, this is a neural network trained on successfully detecting Gamertags in a 200x200 block  
-![Targets](Misc/targets.gif)  
+
 
 ### How To Run
 1. Clone
