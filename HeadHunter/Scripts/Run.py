@@ -5,7 +5,7 @@ import ctypes
 import json
 
 # Load Model
-model = keras.models.load_model('E:\\Projects\\COD Head Spotter\\Models\\MultiClassV2.h5')
+model = keras.models.load_model('..\\Models\\MultiClassV2.h5')
 
 # Find Center Of Screen
 user32 = ctypes.windll.user32
@@ -15,7 +15,7 @@ print('Screen Size X:%d y:%d' % screenSize)
 print('Targeting Center X:%d y:%d' % centerPoint)
 
 # Classes
-classesOrigional = json.loads(open('E:\\Projects\\COD Head Spotter\\Models\\Classes.json').read())
+classesOrigional = json.loads(open('..\\Models\\Classes.json').read())
 classes = {}
 
 for cl in classesOrigional:

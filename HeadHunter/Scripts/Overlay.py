@@ -9,10 +9,10 @@ from PIL import Image, ImageTk, ImageDraw
 import json
 
 # Load Model
-model = keras.models.load_model('E:\\Projects\\COD Head Spotter\\Models\\MultiClassV2.h5')
+model = keras.models.load_model('..\\Models\\MultiClassV2.h5')
 
 # Classes
-classesOrigional = json.loads(open('E:\\Projects\\COD Head Spotter\\Models\\Classes.json').read())
+classesOrigional = json.loads(open('..\\Models\\Classes.json').read())
 classes = {}
 
 for cl in classesOrigional:
@@ -25,7 +25,7 @@ centerPoint = tuple(i/2 for i in screenSize)
 
 root = Tk()
 v = StringVar()
-flashLabel = Label(root, textvariable=v, background='black', foreground='red', font=("Helvetica bold", 10), width=1000)
+flashLabel = Label(root, textvariable=v, background='black', foreground='red', font=("Helvetica bold", 30), width=1000)
 flashLabel.pack()
 
 c = StringVar()
@@ -39,8 +39,8 @@ infoLabel.place(x=225, y=200)
 infoLabel.pack()
 
 v.set("Initializing...")
-c.set('')
-d.set('')
+c.set('<==Real Time')
+d.set('Last High Confidence ==>')
 
 def task():
     last100Image = None
@@ -89,7 +89,7 @@ def task():
                     col,
                      200),
                     fill=128, width=5)
-                if round(prediction[0][np.argmax(prediction)] * 100, 2) > 5:
+                if round(prediction[0][np.argmax(prediction)] * 100, 2) > 25:
                     last100Image = image
 
 
