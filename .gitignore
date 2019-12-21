@@ -106,3 +106,4 @@ venv.bak/
 # Custom Exclude
 .png
 EnemyDetector/Logs/*
+HeadHunter/Logs/*

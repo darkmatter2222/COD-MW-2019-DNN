@@ -46,8 +46,8 @@
         </Grid>
         <Label x:Name="RowLabel" Content="Row:" Grid.Column="1" HorizontalAlignment="Left" Margin="23,58,0,0" VerticalAlignment="Top"/>
         <Label x:Name="ColLabel" Content="Column:" Grid.Column="1" HorizontalAlignment="Left" Margin="23,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.227,-0.241"/>
-        <Button x:Name="Neutral" Content="Neutral" HorizontalAlignment="Left" Margin="59,32,0,0" VerticalAlignment="Top" Width="89" Click="Neutral_Click"/>
-        <Button x:Name="UnknownButton" Content="Unknown" HorizontalAlignment="Left" Margin="171,32,0,0" VerticalAlignment="Top" Width="89" Click="UnknownButton_Click"/>
+        <Button x:Name="Neutral" Content="Neutral" Margin="59,32,170,0" VerticalAlignment="Top" Click="Neutral_Click"/>
+        <Button x:Name="UnknownButton" Content="Unknown" Margin="171,32,58,0" VerticalAlignment="Top" Click="UnknownButton_Click"/>
         <CheckBox x:Name="ShowGridCheckBox" Content="ShowGrid" HorizontalAlignment="Left" Margin="58,264,0,0" VerticalAlignment="Top" Checked="ShowGridCheckBox_Checked" Unchecked="ShowGridCheckBox_Unchecked"/>
     </Grid>
 </Window>
