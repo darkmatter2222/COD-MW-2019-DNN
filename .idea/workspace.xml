@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d7025f9-5518-45bd-b605-2f547d80aeee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" afterDir="false" />
-    </list>
+    <list default="true" id="1d7025f9-5518-45bd-b605-2f547d80aeee" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,56 +12,7 @@
     <favorites_list name="COD-MW-2019-DNN" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1614" />
     <option name="y" value="-40" />
     <option name="width" value="1392" />
@@ -114,7 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,42 +73,12 @@
             <path>
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+              <item name="EnemyAndFriendDetector" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
               <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
-              <item name="Neutral" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
-              <item name="Targets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
@@ -172,6 +90,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,9 +255,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.13277134" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.15076436" />
       <window_info id="Structure" order="1" sideWeight="0.504" side_tool="true" weight="0.24986821" />
       <window_info id="Favorites" order="2" sideWeight="0.5008" side_tool="true" weight="0.24986821" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,20 +312,6 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base Schema" />
@@ -444,9 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,9 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
