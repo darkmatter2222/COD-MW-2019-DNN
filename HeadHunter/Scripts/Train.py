@@ -37,7 +37,7 @@ x = layers.MaxPooling2D(2)(x)
 x = layers.Flatten()(x)
 
 # Create a fully connected layer with ReLU activation and 512 hidden units
-x = layers.Dense(5120, activation='relu')(x)
+x = layers.Dense(512, activation='relu')(x)
 
 # Create output layer with a single node and sigmoid activation
 output = layers.Dense(102, activation='sigmoid')(x)
@@ -96,4 +96,4 @@ history = model.fit_generator(
 
 
 
-model.save('E:\\Projects\\COD Head Spotter\\Models\\MultiClassV2.h5')
+model.save('E:\\Projects\\COD Head Spotter\\Models\\MultiClassV3.h5')

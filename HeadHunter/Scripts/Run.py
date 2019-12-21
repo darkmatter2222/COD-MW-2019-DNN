@@ -2,9 +2,10 @@ import pyautogui
 import numpy as np
 import tensorflow.keras as keras
 import ctypes
+import json
 
 # Load Model
-model = keras.models.load_model('..\\Models\\MultiClassV2.h5')
+model = keras.models.load_model('E:\\Projects\\COD Head Spotter\\Models\\MultiClassV2.h5')
 
 # Find Center Of Screen
 user32 = ctypes.windll.user32
@@ -14,7 +15,11 @@ print('Screen Size X:%d y:%d' % screenSize)
 print('Targeting Center X:%d y:%d' % centerPoint)
 
 # Classes
-classes = ['Enemy', 'Friend', 'Neutral']
+classesOrigional = json.loads(open('E:\\Projects\\COD Head Spotter\\Models\\Classes.json').read())
+classes = {}
+
+for cl in classesOrigional:
+    classes[classesOrigional[cl]] = cl
 
 # Starting Main Loop (will run faster if using Tensorflow + GPU)
 print('Started')
@@ -33,8 +38,10 @@ while 1 == 1:
     results.append(round((prediction[0][2] * 100), 2))
 
     # Print Result
-    print(f'{classes[0]}:{results[0]}, '
-          f'{classes[1]}:{results[1]}, '
-          f'{classes[2]}:{results[2]}, '
-          f'Identified as: {classes[np.argmax(prediction)]}')
+    #print(f'{classes[0]}:{results[0]}, '
+     #     f'{classes[1]}:{results[1]}, '
+      #    f'{classes[2]}:{results[2]}, '
+       #   f'Identified as: {classes[np.argmax(prediction)]}')
+
+    print(f'Classified as: {classes[np.argmax(prediction)]} with {   round(prediction[0][np.argmax(prediction)] * 100, 2)   } Confidence')
 
