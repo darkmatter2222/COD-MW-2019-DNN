@@ -77,7 +77,7 @@ model = Model(img_input, output)
 
 model.summary()
 
-model.compile(loss='sparse_categorical_crossentropy',
+model.compile(loss='categorical_crossentropy',
               optimizer=RMSprop(lr=0.001),
               metrics=['acc'])
 
@@ -92,14 +92,14 @@ train_generator = train_datagen.flow_from_directory(
         target_size=(200, 200),  # All images will be resized to 200x200
         batch_size=5,
         # Since we use binary_crossentropy loss, we need binary labels
-        class_mode='sparse')
+        class_mode='categorical')
 
 # Flow validation images in batches of 20 using val_datagen generator
 validation_generator = val_datagen.flow_from_directory(
         validation_dir,
         target_size=(200, 200),
         batch_size=5,
-        class_mode='sparse')
+        class_mode='categorical')
 
 tensor_board = tf.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\Logs\\{}".format(time.time()))
 
