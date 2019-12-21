@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d7025f9-5518-45bd-b605-2f547d80aeee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/COD-MW-2019-DNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COD-MW-2019-DNN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadHunter/Scripts/Overlay.py" beforeDir="false" afterPath="$PROJECT_DIR$/HeadHunter/Scripts/Overlay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadHunter/Scripts/Run.py" beforeDir="false" afterPath="$PROJECT_DIR$/HeadHunter/Scripts/Run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,22 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Run.py">
+        <entry file="file://$PROJECT_DIR$/HeadHunter/Scripts/Train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="1513">
+              <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="67" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -40,10 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py">
+        <entry file="file://$PROJECT_DIR$/HeadHunter/Scripts/Run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -52,10 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py">
+        <entry file="file://$PROJECT_DIR$/HeadHunter/Scripts/Overlay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="238">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="60" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -97,14 +89,17 @@
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/Train.py" />
         <option value="$PROJECT_DIR$/EnemyDetector/Scripts/NetworkDataCollection.py" />
+        <option value="$PROJECT_DIR$/HeadHunter/Scripts/Train.py" />
+        <option value="$PROJECT_DIR$/HeadHunter/Scripts/Overlay.py" />
+        <option value="$PROJECT_DIR$/HeadHunter/Scripts/Run.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1614" />
-    <option name="y" value="-40" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1392" />
-    <option name="height" value="2112" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -131,41 +126,17 @@
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
               <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
+              <item name="HeadHunter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
               <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
-              <item name="Neutral" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="ValidationData" type="462c0819:PsiDirectoryNode" />
-              <item name="Targets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COD-MW-2019-DNN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COD-MW-2019-DNN" type="462c0819:PsiDirectoryNode" />
-              <item name="EnemyDetector" type="462c0819:PsiDirectoryNode" />
+              <item name="HeadHunter" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -191,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NetworkDataCollection">
+  <component name="RunManager" selected="Python.Overlay (1)">
     <configuration name="NetworkDataCollection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COD-MW-2019-DNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Overlay" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Overlay (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COD-MW-2019-DNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,11 +192,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnemyDetector/Scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HeadHunter/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HeadHunter/Scripts/Overlay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COD-MW-2019-DNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,11 +213,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnemyDetector/Scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HeadHunter/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnemyDetector/Scripts/Run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HeadHunter/Scripts/Run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COD-MW-2019-DNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HeadHunter/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HeadHunter/Scripts/Train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,16 +270,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Train" />
-      <item itemvalue="Python.Run" />
       <item itemvalue="Python.NetworkDataCollection" />
-      <item itemvalue="Python.Overlay" />
+      <item itemvalue="Python.Train (1)" />
+      <item itemvalue="Python.Run (1)" />
+      <item itemvalue="Python.Overlay (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Overlay (1)" />
+        <item itemvalue="Python.Run (1)" />
+        <item itemvalue="Python.Train (1)" />
         <item itemvalue="Python.NetworkDataCollection" />
         <item itemvalue="Python.Train" />
-        <item itemvalue="Python.Overlay" />
-        <item itemvalue="Python.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -337,19 +331,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.13277134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.15279241" />
       <window_info id="Structure" order="1" sideWeight="0.504" side_tool="true" weight="0.24986821" />
       <window_info id="Favorites" order="2" sideWeight="0.5008" side_tool="true" weight="0.24986821" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" weight="0.35969663" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39761648" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" visible="true" weight="0.35861322" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3969957" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32832617" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.32832617" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920928" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49920928" weight="0.32832617" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002636" side_tool="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,13 +413,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py</url>
-          <line>137</line>
+          <line>136</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/EnemyDetector/Scripts/Train.py</url>
           <line>35</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HeadHunter/Scripts/Run.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -440,23 +440,10 @@
     <entry file="file://C:/Python3.6.6/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py" />
     <entry file="file://$USER_HOME$/PycharmProjects/MinecraftPlayer/venv/Lib/site-packages/tensorflow/python/ops/random_ops.py" />
-    <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,6 +461,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnemyDetector/Scripts/Overlay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="56" column="73" lean-forward="true" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeadHunter/Scripts/Train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeadHunter/Scripts/Overlay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeadHunter/Scripts/Run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
