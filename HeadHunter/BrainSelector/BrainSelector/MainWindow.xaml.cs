@@ -87,11 +87,15 @@ namespace BrainSelector
             File.Move(OldSource, $@"{target}\{System.IO.Path.GetFileName(OldSource)}");
         }
 
+        int count = 0;
+
         public void MoveAndLoadNextImage(string target)
         {
             MoveThisImageTo(target);
             fileEntries.RemoveAt(0);
             LoadInImage();
+            count++;
+            CountLabel.Content = $@"Count: {count}";
         }
 
         private void Grid_OnPreviewMouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
@@ -153,6 +157,35 @@ namespace BrainSelector
         private void UnknownButton_Click(object sender, RoutedEventArgs e)
         {
             MoveAndLoadNextImage($@"E:\Projects\COD Head Spotter\TrainingData\Train\Unknown");
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            List<string> Sources = new List<string>();
+
+            List<string> Destinations = new List<string>();
+
+            for (int col = 0; col < 10; col++)
+            {
+                for (int row = 0; row < 10; row++)
+                {
+                    Sources.Add($@"E:\Projects\COD Head Spotter\TrainingData\Train\COL{col}-ROW{row}");
+                    Destinations.Add($@"E:\Projects\COD Head Spotter\TrainingData\Validation\COL{col}-ROW{row}");
+                }
+            }
+
+            for(int i =0;i<Sources.Count();i++)
+            {
+
+                List<string> sourceFiles = Directory.GetFiles(Sources[i]).ToList();
+
+                if (sourceFiles.Count > 3)
+                {
+                    File.Move(sourceFiles[0], $@"{Destinations[i]}\{System.IO.Path.GetFileName(sourceFiles[0])}");
+                }
+            }
+
+
         }
     }
 }

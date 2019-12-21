@@ -49,5 +49,7 @@
         <Button x:Name="Neutral" Content="Neutral" Margin="59,32,170,0" VerticalAlignment="Top" Click="Neutral_Click"/>
         <Button x:Name="UnknownButton" Content="Unknown" Margin="171,32,58,0" VerticalAlignment="Top" Click="UnknownButton_Click"/>
         <CheckBox x:Name="ShowGridCheckBox" Content="ShowGrid" HorizontalAlignment="Left" Margin="58,264,0,0" VerticalAlignment="Top" Checked="ShowGridCheckBox_Checked" Unchecked="ShowGridCheckBox_Unchecked"/>
+        <Label x:Name="CountLabel" Content="Count" Grid.Column="1" HorizontalAlignment="Left" Margin="23,105,0,0" VerticalAlignment="Top" Width="108"/>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="101,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
     </Grid>
 </Window>

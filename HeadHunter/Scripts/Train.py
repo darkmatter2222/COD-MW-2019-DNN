@@ -77,11 +77,11 @@ validation_generator = val_datagen.flow_from_directory(
 tensor_board = tf.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\Logs\\{}".format(time.time()))
 model_save = tf.keras.callbacks.ModelCheckpoint(
     'E:\\Projects\\COD Head Spotter\\Models\\MultiClassBestCheckpoint.h5',
-    monitor='val_loss', verbose=0, save_best_only=True, save_weights_only=False, mode='auto', save_freq='epoch')
+    monitor='acc', verbose=0, save_best_only=True, save_weights_only=False, mode='auto', save_freq='epoch')
 
 
 classes = train_generator.class_indices
-with open('data.txt', 'w') as outfile:
+with open('E:\\Projects\\COD Head Spotter\\Models\\Classes.json', 'w') as outfile:
     json.dump(classes, outfile)
 print(classes)
 
@@ -90,7 +90,7 @@ history = model.fit_generator(
       steps_per_epoch=100,  # 2000 images = batch_size * steps
       epochs=6,
       callbacks=[tensor_board, model_save],
-      # validation_data=validation_generator,
+      validation_data=validation_generator,
       validation_steps=1,  # 1000 images = batch_size * steps
       verbose=1)
 
