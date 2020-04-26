@@ -11,7 +11,7 @@ Look at a 200x200 pixel block at the center of the uers screen, determine if the
 
 # Head hunter
 ### Intent
-Look at a 200x200 pixel block at the center of the uers screen, Brake the image into a 10x10 grid of 20x20 in each cell. Clasift what cell the head of the enemy is in, plan a crosshair on the head of the enemy. Neutral and Unknown as catch all calssifications (102 classifications total)  
+Look at a 200x200 pixel block at the center of the uers screen, break the image into a 10x10 grid of 20x20 in each cell. Clasift what cell the head of the enemy is in, plan a crosshair on the head of the enemy. Neutral and Unknown as catch all calssifications (102 classifications total)  
 ![](https://imgur.com/GtAAOek.png) ![](https://imgur.com/WsqYmmp.png)
 
 
