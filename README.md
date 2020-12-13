@@ -20,6 +20,7 @@ Look at a 200x200 pixel block at the center of the uers screen, break the image 
 ![](https://imgur.com/GtAAOek.png) ![](https://imgur.com/WsqYmmp.png)  
 Model Here: https://www.kaggle.com/darkmatter2222/codmw2019dnnmodels?select=MultiClassV2.h5  
 Classes Here: https://www.kaggle.com/darkmatter2222/codmw2019dnnmodels?select=Classes.json  
+     Classes used here: https://github.com/darkmatter2222/COD-MW-2019-DNN/blob/7d66488947ed5e7d08a51e1bc41d3a7e53214b29/HeadHunter/Scripts/Run.py#L18  
 
 
 There are some cases in COD, where just loooking at a 200x200 block, its impossible to tell if its friend or foe. Take the scenerio that the user has been flashbanged. The user doesent see the colord indicator above the player.  
