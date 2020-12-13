@@ -27,7 +27,7 @@ So realisticly, this is a neural network trained on successfully detecting Gamer
 
 ### How To Run
 1. Clone
-2. Large File Download the latest model (https://github.com/darkmatter2222/COD-MW-2019-DNN/tree/master/EnemyDetector/Models)
+2. Download Models listed above.
 3. Set up your venv. (Using Tensorflow 2.0)
 4. Run https://github.com/darkmatter2222/COD-MW-2019-DNN/blob/master/EnemyDetector/Scripts/Run.py
 5. Run COD at full screen (1080p)
