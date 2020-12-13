@@ -1,7 +1,7 @@
 # COD-MW-2019-DNN
 Deep Neural Networks for Call Of Duty Modern Warfare 2019  
 Contained are the scripts, training data, validation data as well as the .h5 model files for various Call of Duty Modern Warfare Neural Networks  
-Train Dataset > 5GB  
+Train Dataset > 5 GB  
 Validation Dataset > 200 MB  
 
 # Enemy Detector
@@ -9,6 +9,10 @@ Validation Dataset > 200 MB
 Look at a 200x200 pixel block at the center of the uers screen, determine if there is an enemy somewhere in that block. If you have ever played COD, then there is a high chance that by just looking at the below, you would agree if there is an enemy in these images. Realisticly, this is a neural network trained on successfully detecting Gamertags in a 200x200 block.    
 ![](https://imgur.com/5Fowghj.png) ![Targets](Misc/targets.gif)  
 Model Here: https://www.kaggle.com/darkmatter2222/codmw2019dnnmodels?select=CODV7.h5  
+Model Here: https://www.kaggle.com/darkmatter2222/codmw2019dnnmodels?select=CODV9.h5  
+Training Images: https://www.kaggle.com/darkmatter2222/codmw2019dnnmodels?select=Training+Images  
+Validation Images: https://www.kaggle.com/darkmatter2222/codmw2019dnnmodels?select=Validation+Images  
+
 
 # Head hunter
 ### Intent
