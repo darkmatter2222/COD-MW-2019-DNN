@@ -1,3 +1,7 @@
+> **☕ Support my work**
+>
+> If this project has helped you, consider supporting my work on [**Buy Me a Coffee**](https://buymeacoffee.com/j6oiubzfnh).
+
 # COD-MW-2019-DNN
 Deep Neural Networks for Call Of Duty Modern Warfare 2019  
 Contained are the scripts, training data, validation data as well as the .h5 model files for various Call of Duty Modern Warfare Neural Networks  
